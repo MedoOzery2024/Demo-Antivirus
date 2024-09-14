@@ -1,0 +1,43 @@
+body {
+    background-color: #282828;
+    color: #f0e68c;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #f0e68c;
+}
+
+input[type="file"] {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #f0e68c;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+}
+
+#result {
+    margin-top: 20px;
+    color: #fff;
+}
